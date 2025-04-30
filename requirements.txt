@@ -1,6 +1,6 @@
 openai-agents[voice]     # Agents SDK + speech-to-text + text-to-speech extras
 fastapi                  # Web framework that handles the /voice route
 uvicorn[standard]        # Runs FastAPI in production on Cloud Run
-python-multipart         # Lets FastAPI accept file uploads (your MP3 blob)
+python-multipart         # Lets FastAPI accept file uploads  (your MP3 blob)
 textstat                 # Simple readability measure used in the sample score()
 google-cloud-storage     # Uncomment when you add the upload code
